@@ -24,7 +24,22 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+AuthKit is a modular and scalable authentication microservice built with NestJS. It provides secure, token-based authentication using phone numbers and JWT access/refresh tokens, integrated with Redis for token storage and session validation.
+
+🔧 Features
+📲 Phone number–based registration & login
+
+🔐 JWT access & refresh token system
+
+🧠 Password hashing with bcrypt
+
+💾 Redis integration for token/session management
+
+💡 PostgreSQL error handling
+
+🛠️ Structured using controller, dto, service, enum patterns
+
+
 
 ## Installation
 
@@ -57,17 +72,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
